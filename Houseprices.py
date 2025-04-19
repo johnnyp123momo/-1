@@ -58,4 +58,3 @@ print("R2 Score:", r2_score(y_test, y_pred))
 # 儲存模型
 joblib.dump(model, "taipei_house_price_model.pkl")
 print("模型已儲存為 taipei_house_price_model.pkl")
-
